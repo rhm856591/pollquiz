@@ -1,6 +1,42 @@
 #para{
-    display: none;
+    display: none; /*yeh question no.1 ek explaination answer show karne ke liye lagaya gya hai*/
 }
 body{
     background-color: #f5fffa;
+}
+.container{
+    /* border: 5px solid red; */
+    position: absolute;
+    left: 40px;
+}
+.title h1{
+    /* border: 3px solid red; */
+    position: relative;
+    left: 40%;
+}
+
+h3{
+    /* border: 3px solid red; */
+    position: relative;
+    left: 33%;
+}
+#quiz{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn{
+    padding: 5px 15px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    background: none;
+}
+#submit{
+    cursor: pointer;
+    /* border: 2px solid red; */
+    position: relative;
+    left: 40%;
+    margin: 12px 10px;
+    padding: 8px 28px;
+    background: none;
+    border-radius: 10px;
 }
